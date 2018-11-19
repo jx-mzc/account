@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.account">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".account.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".account.MainActivity" />
+        <activity android:name=".account.RegisterActivity" />
+        <activity android:name=".account.AddCutsom" />
+        <activity android:name=".account.Sysset" />
+        <activity android:name=".account.AddOutaccount" />
+        <activity android:name=".account.OutaccountInfo" />
+        <activity android:name=".account.InfoManage" />
+        <activity android:name=".account.AddInaccount" />
+        <activity android:name=".account.InaccountInfo" />
+        <activity android:name=".account.InfoManageIn" />
+        <activity android:name=".account.CumstomManage" />
+        <activity android:name=".account.DetailCustomManage" />
+        <activity android:name=".account.PassManage" />
+        <activity android:name=".account.Accountflag" />
+        <activity android:name=".account.Showinfo"></activity>
+    </application>
+
+</manifest>

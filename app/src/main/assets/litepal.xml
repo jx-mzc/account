@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="account"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.example.administrator.account.model.Tb_flag"></mapping>
+        <mapping class="com.example.administrator.account.model.Tb_inaccount"></mapping>
+        <mapping class="com.example.administrator.account.model.Tb_outaccount"></mapping>
+        <mapping class="com.example.administrator.account.model.Tb_pwd"></mapping>
+        <mapping class="com.example.administrator.account.model.Tb_userinfo"></mapping>
+    </list>
+</litepal>
